@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-const rotas = Router()
+const routes = Router()
 
 
-export default rotas
+export default routes
