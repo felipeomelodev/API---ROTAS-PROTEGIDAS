@@ -11,3 +11,6 @@ app.use(routes)
 app.listen(process.env.PORT, () => {
 	console.log('Server started.')
 })
+
+// Expressão regular para validação de email
+// /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
