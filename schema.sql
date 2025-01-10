@@ -1,4 +1,4 @@
-create database aula_autenticacao_criptografia;
+create database gestao_acesso;
 
 create table users (
   id uuid primary key,
